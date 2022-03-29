@@ -1,0 +1,66 @@
+@import '../../variables/variables';
+@import '../../mixins/mixins';
+
+
+/* =====================================================
+                    Department part start
+===================================================== */
+
+#department {
+    padding-bottom: 236px;
+
+    .common_head {
+        p {
+            padding: 30px 20px 0;
+        }
+    }
+    .depMar{
+        margin-top: 110px;
+    }
+    .dep_main {
+        padding: 17px 17px 36px;
+        border: 1px solid #E9E9E9;
+        border-radius: 10px;
+        transition: $trns;
+        margin-bottom: 24px;
+        &:hover{
+            box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1);
+            border-color: transparent;
+        }
+        .dep_text{
+            h3{
+                @include fs($head, 25px, 700, $intr);
+                padding-top: 35px;
+            }
+            p{
+                @include fs($pera, 16px, 400, $intr);
+                line-height: 28px;
+                padding: 15px 45px 0;
+            }
+            a{
+                padding: 12px 39px;
+                background: #fff;
+                border-radius: 10px;
+                @include fs($main, 20px, 500, $intr);
+                border: 1px solid $main;
+                margin-top: 20px;
+                transition: $trns;
+                &:hover{
+                    background: $main;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.common_head {
+    p {
+        @include fs($pera, 16px, 400, $intr);
+        line-height: 28px;
+    }
+}
+
+/* =====================================================
+                    Department part end
+===================================================== */

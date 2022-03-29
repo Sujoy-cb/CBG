@@ -1,0 +1,73 @@
+@mixin fs($c, $f, $fw, $ff) {
+    color: $c;
+    font-size: $f;
+    font-weight: $fw;
+    font-family: $ff;
+}
+
+@mixin aftr_lft_tp($l, $t, $w, $h, $bg) {
+    position: absolute;
+    content: '';
+    left: $l;
+    top: $t;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin aftr_lft_btm($l, $b, $w, $h, $bg) {
+    position: absolute;
+    content: '';
+    left: $l;
+    bottom: $b;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin aftr_rght_tp($r, $t, $w, $h, $bg) {
+    position: absolute;
+    content: '';
+    right: $r;
+    top: $t;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin aftr_rght_btm($r, $b, $w, $h, $bg) {
+    position: absolute;
+    content: '';
+    left: $r;
+    bottom: $b;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin overly1($l, $t, $w, $h, $bg) {
+    position: absolute;
+    left: $l;
+    top: $t;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin overly2($r, $t, $w, $h, $bg) {
+    position: absolute;
+    right: $r;
+    top: $t;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin overly3($r, $b, $w, $h, $bg) {
+    position: absolute;
+    right: $r;
+    bottom: $b;
+    width: $w;
+    height: $h;
+    background: $bg;
+}

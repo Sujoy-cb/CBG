@@ -1,0 +1,76 @@
+@import '../../variables/variables';
+@import '../../mixins/mixins';
+
+/* =====================================================
+                    Banner part start
+===================================================== */
+
+#banner {
+    .banner_item {
+        padding: 340px 0 179px;
+        position: relative;
+        z-index: 1;
+
+        &:after {
+            @include aftr_lft_tp(0, 0, 100%, 100%, linear-gradient(to bottom, rgba(0, 79, 157, 0.18) 0%, #004F9D 100%));
+            z-index: -1;
+        }
+
+        .banner_text {
+            h1 {
+                @include fs(#fff, 55px, 700, $intr);
+                line-height: 75px;
+            }
+
+            p {
+                @include fs(#fff, 16px, 400, $intr);
+                line-height: 28px;
+                margin-top: 20px;
+            }
+
+            a {
+                padding: 16px 39px;
+                @include fs($main, 20px, 500, $intr);
+                background: #fff;
+                border-radius: 10px;
+                margin-top: 30px;
+                transition: $trns;
+                border: 1px solid transparent;
+
+                &:hover {
+                    background: transparent;
+                    border-color: #fff;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .arr_right,
+    .arr_left{
+        position: absolute;
+        transform: translateY(-50%);
+        z-index: 99;
+        width: 55px;
+        height: 55px;
+        background: #fff;
+        color: $main;
+        font-size: 24px;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 55px;
+    }
+
+    .arr_right{
+        right: 7%;
+        top: 50%;
+    }
+    .arr_left{
+        left: 7%;
+        top: 50%;
+    }
+
+}
+
+/* =====================================================
+                    Banner part end
+===================================================== */

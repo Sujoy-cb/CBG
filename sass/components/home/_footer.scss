@@ -1,0 +1,70 @@
+@import '../../variables/variables';
+@import '../../mixins/mixins';
+
+/* =====================================================
+                    Footer part start
+===================================================== */
+#footer {
+    padding: 207px 0 130px;
+
+    .footer_left {
+        h4 {
+            padding-bottom: 33px;
+            @include fs(#fff, 20px, 700, $intr);
+        }
+
+        .add_text {
+            position: relative;
+            padding-left: 51px;
+
+            i {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 31px;
+                height: 31px;
+                background: #fff;
+                text-align: center;
+                line-height: 31px;
+                border-radius: 50px;
+                color: $main;
+                font-size: 16px;
+            }
+
+            p {
+                @include fs(#fff, 16px, 400, $intr);
+                line-height: 28px;
+                padding-bottom: 15px;
+
+                span {
+                    font-weight: 700;
+                    display: block;
+                }
+
+                &:last-child {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .footer {
+        h4 {
+            padding-bottom: 33px;
+            @include fs(#fff, 20px, 700, $intr);
+        }
+        ul{
+            li{
+                a{
+                    @include fs(#fff, 16px, 400, $intr);
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+}
+
+
+/* =====================================================
+                    Footer part end
+===================================================== */

@@ -1,0 +1,1292 @@
+@media (min-width: 1730px) {
+    .main_menu {
+        max-width: 1700;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1729px) {
+    .main_menu {
+        max-width: 90%;
+        padding: 38px 24px 40px 24px;
+    }
+    #histroy .image .expert {
+        display: inline-block;
+        background: #0077C0;
+        padding: 50px 28px;
+        border: 10px solid #fff;
+        border-radius: 5px;
+        position: absolute;
+        bottom: -85px;
+        left: 15px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .main_menu ul li a {
+        padding: 0 12px !important;
+    }
+
+    .main_menu {
+        max-width: 90%;
+        padding: 38px 24px 40px 24px;
+    }
+
+    #counter .counter_text {
+        padding: 30px 30px;
+    }
+
+    #about .about_text {
+        padding-top: 40px;
+    }
+
+    #about .about_img .overly {
+        max-width: 90%;
+        padding: 20px 24px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 7.44px 53.14px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 7.44px 53.14px 0 rgba(0, 0, 0, 0.05);
+    }
+
+    #about {
+        padding: 130px 0 130px;
+    }
+    #histroy .image .expert {
+        display: inline-block;
+        background: #0077C0;
+        padding: 35px 28px;
+        border: 10px solid #fff;
+        border-radius: 5px;
+        position: absolute;
+        bottom: -85px;
+        left: -30px;
+    }
+
+    #latest_new .news_inner .news_text {
+        padding-right: 85px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*===============================================================
+                            Menu part start 
+    ===============================================================*/
+    .main_menu {
+        padding: 12px;
+        top: 30px;
+        max-width: 95%;
+    }
+
+    .main_menu ul li a {
+        font-size: 16px;
+        padding: 0 15px !important;
+    }
+
+    /*===============================================================
+                            Menu part end 
+    ===============================================================*/
+    /*===============================================================
+                            Banner part start 
+    ===============================================================*/
+    #banner .banner_item .banner_text h1 {
+        font-size: 51px;
+    }
+
+    /*===============================================================
+                            Banner part end 
+    ===============================================================*/
+    #department .dep_main .dep_text h3 {
+        font-size: 22px;
+    }
+
+    #counter .counter_text {
+        padding: 24px 24px;
+    }
+
+    #about .about_text {
+        padding-top: 0px;
+    }
+
+    #about .about_img .overly {
+        max-width: 95%;
+        padding: 20px 20px;
+    }
+
+    #about {
+        padding: 130px 0 125px;
+    }
+
+    #latest_new .news_inner .news_text {
+        padding-right: 0px;
+    }
+
+    #subscrib .sub_inner {
+        padding: 50px 135px;
+    }
+
+    /*===============================================================
+                        Histroy part end 
+    ===============================================================*/
+    #histroy {
+        padding: 80px 0;
+    }
+
+    #histroy .image .expert {
+        display: inline-block;
+        background: #0077C0;
+        padding: 22px 7px;
+        border: 10px solid #fff;
+        border-radius: 5px;
+        position: absolute;
+        bottom: -51px;
+        left: -6px;
+    }
+    #histroy .detail h3 {
+        font-size: 30px;
+        line-height: 34px;
+        width: 500px;
+    }
+    #histroy .detail h6 {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+    #histroy .detail h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    #histroy .detail p{
+        width: 100%;
+        line-height: 26px;
+    }
+    .ms-5 {
+        margin-left: 0 !important;
+    }
+    #histroy .detail .list .his-text h4 {
+        font-size: 25px;
+    }
+    #histroy .detail .list .okk-img img{
+        width: 35px;
+    }
+    #histroy .detail .list .his-text {
+        margin-left: 15px;
+    }
+    #histroy .detail .list .his-text p{
+        width: 100%;
+    }
+    #histroy .image .img{
+        margin-top: 30px;
+    }
+    #histroy .image .img img {
+        width: 100% !important;
+        margin-left: -15px !important;
+        margin-top: 48px !important;
+    }
+    #histroy .image .right-img img{
+        margin-left: 20px !important;
+    }
+    /*===============================================================
+                        Histroy part end 
+    ===============================================================*/
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*===============================================================
+                            Menu part start 
+    ===============================================================*/
+    .main_menu {
+        padding: 12px;
+        top: 20px;
+        max-width: 95%;
+    }
+
+    .main_menu ul li a {
+        font-size: 12px;
+        padding: 0 10px !important;
+    }
+
+    .main_menu #navbarSupportedContent>a {
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    /*===============================================================
+                            Menu part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Banner part start 
+    ===============================================================*/
+    #banner .arr_right,
+    #banner .arr_left {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    #banner .arr_left {
+        left: 5%;
+    }
+
+    #banner .arr_right {
+        right: 5%;
+    }
+
+    #banner .banner_item {
+        padding: 220px 0 130px;
+    }
+
+    /*===============================================================
+                            Banner part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Client part start 
+    ===============================================================*/
+    #client {
+        padding: 70px 0 45px;
+    }
+
+    .client_logo:first-child,
+    .client_logo:nth-child(2),
+    .client_logo:nth-child(3) {
+        padding-bottom: 24px;
+    }
+
+    /*===============================================================
+                            Client part end 
+    ===============================================================*/
+    /*===============================================================
+                            Department part end 
+    ===============================================================*/
+    #department {
+        padding-bottom: 125px;
+    }
+
+    #department .depMar {
+        margin-top: 50px;
+    }
+
+    #department .dep_main .dep_text p {
+        padding: 15px 0 0;
+    }
+
+    /*===============================================================
+                            Department part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Counter part end 
+    ===============================================================*/
+    #counter .counter_text {
+        padding: 12px 12px;
+        top: -70px;
+    }
+
+    #counter .counter_text h3 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    #counter .counter_text p {
+        font-size: 14px;
+    }
+
+    .counter_text img {
+        width: 50px;
+    }
+
+    #counter {
+        height: 165px;
+    }
+
+    /*===============================================================
+                            Counter part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            About part start 
+    ===============================================================*/
+    #about {
+        padding: 80px 0 75px;
+    }
+
+    #about .about_img .overly {
+        right: -31.88px;
+        bottom: -80px;
+    }
+
+    #about .about_text {
+        padding-top: 138px;
+    }
+
+    /*===============================================================
+                            About part end 
+    ===============================================================*/
+
+    /*===============================================================
+                        Histroy part end 
+    ===============================================================*/
+    #histroy {
+        padding: 80px 0;
+    }
+
+    #histroy .image .expert {
+        display: inline-block;
+        background: #0077C0;
+        padding: 22px 7px;
+        border: 10px solid #fff;
+        border-radius: 5px;
+        position: absolute;
+        bottom: -51px;
+        left: 39px;
+    }
+    #histroy .detail h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    #histroy .detail h6 {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+    #histroy .detail h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    #histroy .detail p{
+        width: 100%;
+        line-height: 26px;
+    }
+    .ms-5 {
+        margin-left: 0 !important;
+    }
+    #histroy .detail .list .his-text h4 {
+        font-size: 25px;
+    }
+    #histroy .detail .list .okk-img img{
+        width: 35px;
+    }
+    #histroy .detail .list .his-text {
+        margin-left: 15px;
+    }
+    #histroy .detail .list .his-text p{
+        width: 100%;
+    }
+    #histroy .image .img{
+        margin-top: 30px;
+    }
+
+    /*===============================================================
+                        Histroy part end 
+    ===============================================================*/
+
+    /*===============================================================
+                        Latest News part end 
+    ===============================================================*/
+    #latest_new .news_inner .news_text {
+        padding-right: 0;
+    }
+
+    #latest_new {
+        padding: 70px 0;
+    }
+
+    #latest_new .news_inner .news_text .new_design_data p {
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    #latest_new .news_inner .news_text h3 {
+        font-size: 18px;
+    }
+
+    #latest_new .news_inner .news_text p {
+        font-size: 14px;
+    }
+
+    #latest_new .news_inner .news_text a {
+        font-size: 14px;
+    }
+
+    /*===============================================================
+                        Latest News part end 
+    ===============================================================*/
+
+    /*===============================================================
+                        Support part start 
+    ===============================================================*/
+    #support .accordion-item button {
+        font-size: 16px;
+    }
+
+    #support .accordion-item {
+        padding: 0 20px;
+    }
+
+    #subscrib .sub_inner {
+        padding: 30px 80px;
+        bottom: 170px;
+    }
+
+    #support {
+        padding: 0px 0 220px;
+    }
+
+    /*===============================================================
+                        Support part end 
+    ===============================================================*/
+
+    /*===============================================================
+                        Subscrib part end 
+    ===============================================================*/
+    #subscrib {
+        position: absolute;
+        width: 100%;
+    }
+
+    /*===============================================================
+                        Subscrib part end 
+    ===============================================================*/
+
+    /*===============================================================
+                        Footer part end 
+    ===============================================================*/
+    #footer {
+        padding: 130px 0 70px;
+    }
+
+    #footer .footer h4 {
+        padding-bottom: 15px;
+    }
+
+    .footer {
+        padding-top: 30px;
+    }
+
+    .footer_left h4 {
+        padding-top: 30px;
+    }
+
+    /*===============================================================
+                        Footer part end 
+    ===============================================================*/
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*===============================================================
+                            Menu part start 
+    ===============================================================*/
+    .main_menu {
+        padding: 12px;
+        top: 10px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    #navbarSupportedContent {
+        text-align: center;
+        border-top: 1px solid #0077C0;
+        padding-top: 12px;
+    }
+
+    .main_menu ul li a {
+        padding: 3px 0 !important;
+    }
+
+    .main_menu #navbarSupportedContent>a {
+        padding: 12px 30px;
+        margin-top: 10px;
+    }
+
+    .main_menu {
+        max-width: 570px;
+    }
+
+    /*===============================================================
+                            Menu part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Banner part start 
+    ===============================================================*/
+    #banner .banner_item {
+        padding: 170px 0 90px;
+    }
+
+    #banner .banner_item .banner_text h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    #banner .banner_item .banner_text a {
+        padding: 12px 30px;
+    }
+
+    #banner .arr_right,
+    #banner .arr_left {
+        display: none;
+    }
+
+    /*===============================================================
+                            Banner part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Client part start 
+    ===============================================================*/
+    #client {
+        padding: 60px 0 40px;
+    }
+
+    #client .common_head h2 {
+        padding-bottom: 35px;
+    }
+
+    .client_logo {
+        padding-bottom: 25px;
+    }
+
+    /*===============================================================
+                            Client part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Department  part start 
+    ===============================================================*/
+    #department .common_head p {
+        padding: 20px 0px 0;
+    }
+
+    #department .depMar {
+        margin-top: 30px;
+    }
+
+    #department .dep_main .dep_text p {
+        padding: 15px 0px 0;
+    }
+
+    #department .dep_main .dep_text h3 {
+        padding-top: 20px;
+    }
+
+    #department {
+        padding-bottom: 115px;
+    }
+
+    /*===============================================================
+                            Department  part end 
+    ===============================================================*/
+    /*===============================================================
+                            Counter part start 
+    ===============================================================*/
+    #counter .counter_text {
+        padding: 12px 12px;
+        top: -70px;
+        margin-bottom: 24px;
+    }
+
+    .counter_text img {
+        width: 40px;
+    }
+
+    #counter .counter_text h3 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    #counter .counter_text p {
+        font-size: 18px;
+    }
+
+    /*===============================================================
+                            Counter part end 
+    ===============================================================*/
+    /*===============================================================
+                            About part start 
+    ===============================================================*/
+    #about {
+        padding: 70px 0 65px;
+    }
+
+    #about .about_img .about_shape {
+        top: -25px;
+    }
+
+    #about .about_img .overly {
+        right: -28px;
+        bottom: -80px;
+        max-width: 90%;
+        padding: 12px;
+    }
+
+    #about .about_img .overly svg {
+        /*! width: 20px; */
+    }
+
+    #about .about_img .overly p {
+        font-size: 15px;
+        /*! line-height: 22.8px; */
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    #about .about_img .overly img {
+        max-width: 150px;
+    }
+
+    #about .about_text {
+        padding-top: 137px;
+    }
+
+    #about .about_text h2 {
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    #about .about_text p {
+        padding-bottom: 10px;
+    }
+
+    #about .about_text p span {
+        padding-top: 10px;
+    }
+
+    #about .about_text .about_sub {
+        padding-left: 50px;
+    }
+
+    .about_sub img {
+        width: 35px;
+    }
+
+    /*===============================================================
+                            About part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            History part start 
+    ===============================================================*/
+    #histroy{
+        padding: 50px 0;
+    }
+    #histroy .image .expert {
+        display: inline-block;
+        background: #0077C0;
+        padding: 22px 7px;
+        border: 10px solid #fff;
+        border-radius: 5px;
+        position: absolute;
+        bottom: -51px;
+        left: 39px;
+    }
+    #histroy .detail h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    #histroy .detail h6 {
+        font-size: 20px;
+        margin-top: 70px;
+    }
+    #histroy .detail h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    #histroy .detail p{
+        width: 100%;
+        line-height: 26px;
+    }
+    .ms-5 {
+        margin-left: 0 !important;
+    }
+    #histroy .detail .list .his-text h4 {
+        font-size: 25px;
+    }
+    #histroy .detail .list .okk-img img{
+        width: 35px;
+    }
+    #histroy .detail .list .his-text {
+        margin-left: 15px;
+    }
+    #histroy .detail .list .his-text p{
+        width: 100%;
+    }
+    #histroy .image .img{
+        margin-top: 30px;
+    }
+
+    /*===============================================================
+                            History part end 
+    ===============================================================*/
+    /*===============================================================
+                            Latest part start 
+    ===============================================================*/
+    #latest_new {
+        padding: 60px 0;
+    }
+
+    #latest_new .news_inner .news_text {
+        padding-right: 0px;
+    }
+
+    #latest_new .news_inner {
+        margin-top: 24px;
+    }
+
+    /*===============================================================
+                            Latest part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Support part start 
+    ===============================================================*/
+    #support .common_head p {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    #support .common_head a {
+        margin-bottom: 24px;
+    }
+
+    #support .accordion-item {
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+
+    #support {
+        padding: 0px 0 180px;
+    }
+
+
+
+    /*===============================================================
+                            Support part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Subscrib part start 
+    ===============================================================*/
+    #subscrib .sub_inner {
+        padding: 24px 24px;
+        bottom: 150px;
+    }
+
+    #subscrib {
+        position: absolute;
+        width: 100%;
+    }
+
+    #subscrib .sub_inner .search input {
+        padding-right: 35%;
+    }
+
+    #subscrib .sub_inner .sub_shape {
+        right: -10px;
+        top: -37px;
+    }
+
+    /*===============================================================
+                            Subscrib part end 
+    ===============================================================*/
+    /*===============================================================
+                            Footer part start 
+    ===============================================================*/
+    #footer {
+        padding: 160px 0 40px;
+    }
+
+    #footer .footer_left .add_text i {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    #footer .footer_left .add_text {
+        padding-left: 40px;
+    }
+
+    #footer .footer_left .add_text p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .footer_left {
+        padding-bottom: 24px;
+    }
+
+    .footer {
+        padding-bottom: 24px;
+    }
+
+    /*===============================================================
+                            Footer part end 
+    ===============================================================*/
+}
+
+@media (max-width: 575.98px) {
+
+    /*===============================================================
+                            Menu part start 
+    ===============================================================*/
+    .main_menu {
+        padding: 12px;
+        top: 10px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    #navbarSupportedContent {
+        text-align: center;
+        border-top: 1px solid #0077C0;
+        padding-top: 12px;
+    }
+
+    .main_menu ul li a {
+        padding: 3px 0 !important;
+    }
+
+    .main_menu #navbarSupportedContent>a {
+        padding: 10px 25px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .main_menu ul li a {
+        font-size: 16px;
+    }
+
+    /*===============================================================
+                            Menu part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Banner part start 
+    ===============================================================*/
+    #banner .banner_item {
+        padding: 140px 0 70px;
+    }
+
+    #banner .banner_item .banner_text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #banner .banner_item .banner_text p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+
+    #banner .banner_item .banner_text a {
+        padding: 10px 25px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #banner .arr_right,
+    #banner .arr_left {
+        display: none;
+    }
+
+    /*===============================================================
+                            Banner part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Client part start 
+    ===============================================================*/
+    #client {
+        padding: 50px 0 30px;
+    }
+
+    #client .common_head h2 {
+        padding-bottom: 20px;
+    }
+
+    .common_head h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .client_logo {
+        padding-bottom: 20px;
+    }
+
+    /*===============================================================
+                            Client part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Department  part start 
+    ===============================================================*/
+    #department .common_head p {
+        padding: 20px 0px 0;
+    }
+
+    #department .depMar {
+        margin-top: 30px;
+    }
+
+    #department .dep_main .dep_text p {
+        padding: 15px 0px 0;
+    }
+
+    #department .dep_main .dep_text h3 {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    #department .dep_main .dep_text a {
+        padding: 8px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    #department {
+        padding-bottom: 105px;
+    }
+
+    /*===============================================================
+                            Department  part end 
+    ===============================================================*/
+    /*===============================================================
+                            Counter part start 
+    ===============================================================*/
+    #counter .counter_text {
+        padding: 12px 12px;
+        top: -70px;
+        margin-bottom: 24px;
+    }
+
+    .counter_text img {
+        width: 40px;
+    }
+
+    #counter .counter_text h3 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    #counter .counter_text p {
+        font-size: 13px;
+        padding-top: 5px;
+    }
+
+    /*===============================================================
+                            Counter part end 
+    ===============================================================*/
+    /*===============================================================
+                            About part start 
+    ===============================================================*/
+    #about {
+        padding: 60px 0 55px;
+    }
+
+    #about .about_img .about_shape {
+        top: -25px;
+    }
+
+    #about .about_img .overly {
+        right: -12px;
+        bottom: -80px;
+        max-width: 90%;
+        padding: 12px;
+    }
+
+    #about .about_img .overly svg {
+        width: 20px;
+    }
+
+    #about .about_img .overly p {
+        font-size: 12px;
+        line-height: 22.8px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    #about .about_img .overly img {
+        max-width: 130px;
+    }
+
+    #about .about_text {
+        padding-top: 137px;
+    }
+
+    #about .about_text h5 {
+        font-size: 16px;
+    }
+
+    #about .about_text h2 {
+        font-size: 21px;
+        padding-bottom: 15px;
+    }
+
+    #about .about_text p {
+        font-size: 12px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+
+    #about .about_text p span {
+        padding-top: 10px;
+    }
+
+    #about .about_text .about_sub {
+        padding-left: 30px;
+    }
+
+    .about_sub img {
+        width: 25px;
+    }
+
+    #about .about_text .about_sub h3 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    /*===============================================================
+                            About part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            History part start 
+    ===============================================================*/
+    #histroy{
+        padding: 50px 0;
+    }
+    #histroy .image .expert {
+        display: inline-block;
+        background: #0077C0;
+        padding: 22px 7px;
+        border: 10px solid #fff;
+        border-radius: 5px;
+        position: absolute;
+        bottom: -51px;
+        left: 39px;
+    }
+    #histroy .image .expert h2 {
+        font-size: 24px;
+        width: 186px;
+        text-align: center;
+    }
+    #histroy .detail h6 {
+        font-size: 20px;
+        margin-top: 70px;
+        text-align: center;
+    }
+    #histroy .detail h3 {
+        font-size: 23px;
+        width: 387px;
+        line-height: 34px;
+        text-align: center;
+    }
+    #histroy .detail p{
+        width: 100%;
+        line-height: 22px;
+        text-align: center;
+    }
+    .ms-5 {
+        margin-left: 0 !important;
+    }
+    #histroy .detail .list .his-text h4 {
+        font-size: 18px;
+    }
+    #histroy .detail .list .okk-img img{
+        width: 25px;
+    }
+    #histroy .detail .list .his-text {
+        margin-left: 0px;
+    }
+    #histroy .detail .list .his-text p{
+        width: 100%;
+    }
+    #histroy .image .img{
+        margin-top: 30px;
+    }
+
+    
+
+    /*===============================================================
+                            History part end 
+    ===============================================================*/
+    /*===============================================================
+                            Latest part start 
+    ===============================================================*/
+    #latest_new {
+        padding: 50px 0;
+    }
+
+    #latest_new .news_inner .news_text {
+        padding-right: 0px;
+    }
+
+    #latest_new .news_inner .news_text h3 {
+        font-size: 20px;
+    }
+
+    #latest_new .news_inner .news_text .new_design_data p {
+        font-size: 14px;
+        margin-right: 10px;
+        padding-top: 5px;
+    }
+
+    #latest_new .news_inner .news_text a {
+        font-size: 14px;
+    }
+
+    #latest_new .news_inner .news_text a {
+        font-size: 14px;
+    }
+
+    #latest_new .news_inner .news_text p {
+        font-size: 14px;
+    }
+
+    #latest_new .news_inner {
+        margin-top: 24px;
+    }
+
+    /*===============================================================
+                            Latest part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Support part start 
+    ===============================================================*/
+    #support .common_head p {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    #support .common_head a {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    #support .accordion-item {
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+
+    #support .accordion-item button {
+        padding: 30px 0 20px;
+        font-size: 12px;
+    }
+
+    #support .accordion-item button {
+        padding: 12px 0 12px;
+        font-size: 12px;
+    }
+
+    #support .accordion-item .accordion-body p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #support {
+        padding: 0 0 130px;
+    }
+
+
+
+    /*===============================================================
+                            Support part end 
+    ===============================================================*/
+
+    /*===============================================================
+                            Subscrib part start 
+    ===============================================================*/
+    #subscrib .sub_inner {
+        padding: 12px 12px;
+        bottom: 85px;
+    }
+
+    #subscrib .sub_inner h2 {
+        font-size: 25px;
+        line-height: 30px;
+        /*! margin-bottom: 15px; */
+    }
+
+    #subscrib {
+        position: absolute;
+    }
+
+    #subscrib .sub_inner .search input {
+        height: 35px;
+        border-radius: 5px;
+        padding-right: 33%;
+        padding-left: 12px;
+    }
+
+    #subscrib .sub_inner .search button {
+        padding: 10px 10px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    #subscrib .sub_inner .sub_shape {
+        right: -10px;
+        top: -37px;
+    }
+
+    /*===============================================================
+                            Subscrib part end 
+    ===============================================================*/
+    /*===============================================================
+                            Footer part start 
+    ===============================================================*/
+    #footer {
+        padding: 120px 0 30px;
+    }
+
+    #footer .footer_left h4 {
+        padding-bottom: 15px;
+    }
+
+    #footer .footer_left .add_text i {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    #footer .footer_left .add_text {
+        padding-left: 40px;
+    }
+
+    #footer .footer_left .add_text p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .footer_left {
+        padding-bottom: 24px;
+    }
+
+    #footer .footer h4 {
+        padding-bottom: 15px;
+    }
+
+    #footer .footer ul li a {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .footer {
+        padding-bottom: 24px;
+    }
+
+    /*===============================================================
+                            Footer part end 
+    ===============================================================*/
+}

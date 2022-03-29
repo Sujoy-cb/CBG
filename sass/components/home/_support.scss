@@ -1,0 +1,73 @@
+@import '../../variables/variables';
+@import '../../mixins/mixins';
+
+/* =====================================================
+                    Support part start
+===================================================== */
+#support {
+    padding: 0 0 23px;
+
+    .common_head {
+        p {
+            padding-top: 30px;
+            padding-bottom: 40px;
+        }
+
+        a {
+            padding: 16px 36px;
+            border-radius: 10px;
+            background: $main;
+            @include fs(#fff, 20px, 500, $intr);
+        }
+    }
+
+    .accordion-item {
+        margin-bottom: 30px;
+        background: #fff;
+        border: 1px solid #E9E9E9;
+        border-radius: 10px;
+        padding: 0 40px;
+        &.border{
+            border-color: transparent !important;
+            box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.05);
+        }
+        button {
+            border: 0;
+            background: transparent;
+            border-radius: 10px;
+            box-shadow: 0 0 0 0;
+            padding: 30px 0 20px;
+            @include fs($main, 20px, 600, $intr);
+            &:after{
+                color: $main;
+                font-size: 24px;
+            }
+
+            &[aria-expanded="true"] {
+                &:before {
+                    @include aftr_lft_btm(0, 0, 100%, 1px, #E9E9E9);
+                }
+            }
+            &.collapsed{
+                color: $head;
+            }
+        }
+
+        .accordion-button:focus {
+            box-shadow: 0 0 0 0;
+        }
+
+        .accordion-body{
+            padding: 20px 0 26px;
+            p{
+                @include fs($pera, 16px, 400, $intr);
+                line-height: 28px;
+            }
+        }
+    }
+
+}
+
+/* =====================================================
+                    Support part end
+===================================================== */

@@ -1,0 +1,25 @@
+@import '../../variables/variables';
+@import '../../mixins/mixins';
+
+/* =====================================================
+                    Client part start
+===================================================== */
+
+#client {
+    padding: 120px 0;
+    .common_head {
+        h2 {
+            padding-bottom: 51px;
+        }
+    }
+}
+
+.common_head {
+    h2 {
+        @include fs($head, 40px, 700, $intr);
+    }
+}
+
+/* =====================================================
+                    Client part end
+===================================================== */

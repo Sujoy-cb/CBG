@@ -1,0 +1,71 @@
+@import '../../variables/variables';
+@import '../../mixins/mixins';
+
+/* =====================================================
+                    About part start
+===================================================== */
+#about{
+    padding: 130px 0 215px;
+    .about_img{
+        position: relative;
+        .about_shape{
+            position: absolute;
+            left: -50px;
+            top: -55px;
+            z-index: -1;
+        }
+        .overly{
+            @include overly3(-31.88px, -225px, auto, auto, #fff);
+            max-width: 492px;
+            padding: 32px 35px;
+            border-radius: 10px;
+            box-shadow: 0 7.44px 53.14px 0 rgba(0, 0, 0, 0.05);
+            p{
+                @include fs($pera, 17px, 400, $intr);
+                line-height: 29.8px;
+                padding-top: 10px;
+                padding-bottom: 21px;
+            }
+        }
+    }
+    .about_text{
+        padding-top: 142px;
+        h5{
+            @include fs($pera, 20px, 600, $intr);
+            padding-bottom: 10px;
+        }
+        h2{
+            @include fs($head, 40px, 700, $intr);
+            padding-bottom: 30px;
+        }
+        p{
+            @include fs($pera, 16px, 400, $intr);
+            line-height: 28px;
+            padding-bottom: 20px;
+            span{
+                display: block;
+                padding-top: 20px;
+            }
+        }
+        .about_sub{
+            padding-top: 20px;
+            padding-left: 74px;
+            position: relative;
+            img{
+                position: absolute;
+                left: 0;
+            }
+            h3{
+                @include fs($head, 25px, 700, $intr);
+                padding-bottom: 15px;
+            }
+            p{
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+/* =====================================================
+                    About part end
+===================================================== */

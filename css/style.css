@@ -1,0 +1,779 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.make_container {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+/* =====================================================
+                    Common css end
+===================================================== */
+/* =====================================================
+                    Header part start
+===================================================== */
+.main_menu {
+  max-width: 1702px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 38px 77px 40px 65px;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  z-index: 999;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.main_menu ul li a {
+  color: #7A7A7A;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  padding: 0 29px !important;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.main_menu ul li a:hover {
+  color: #0077C0;
+}
+
+.main_menu #navbarSupportedContent > a {
+  padding: 16px 36px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  background: #0077C0;
+  border-radius: 10px;
+}
+
+/* =====================================================
+                    Header part end
+===================================================== */
+/* =====================================================
+                    Banner part start
+===================================================== */
+#banner .banner_item {
+  padding: 340px 0 179px;
+  position: relative;
+  z-index: 1;
+}
+
+#banner .banner_item:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 79, 157, 0.18)), to(#004F9D));
+  background: linear-gradient(to bottom, rgba(0, 79, 157, 0.18) 0%, #004F9D 100%);
+  z-index: -1;
+}
+
+#banner .banner_item .banner_text h1 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 75px;
+}
+
+#banner .banner_item .banner_text p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+#banner .banner_item .banner_text a {
+  padding: 16px 39px;
+  color: #0077C0;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+  border: 1px solid transparent;
+}
+
+#banner .banner_item .banner_text a:hover {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+#banner .arr_right,
+#banner .arr_left {
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 99;
+  width: 55px;
+  height: 55px;
+  background: #fff;
+  color: #0077C0;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 55px;
+}
+
+#banner .arr_right {
+  right: 7%;
+  top: 50%;
+}
+
+#banner .arr_left {
+  left: 7%;
+  top: 50%;
+}
+
+/* =====================================================
+                    Banner part end
+===================================================== */
+/* =====================================================
+                    Client part start
+===================================================== */
+#client {
+  padding: 120px 0;
+}
+
+#client .common_head h2 {
+  padding-bottom: 51px;
+}
+
+.common_head h2 {
+  color: #222222;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+/* =====================================================
+                    Client part end
+===================================================== */
+/* =====================================================
+                    Department part start
+===================================================== */
+#department {
+  padding-bottom: 236px;
+}
+
+#department .common_head p {
+  padding: 30px 20px 0;
+}
+
+#department .depMar {
+  margin-top: 110px;
+}
+
+#department .dep_main {
+  padding: 17px 17px 36px;
+  border: 1px solid #E9E9E9;
+  border-radius: 10px;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+  margin-bottom: 24px;
+}
+
+#department .dep_main:hover {
+  -webkit-box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1);
+  border-color: transparent;
+}
+
+#department .dep_main .dep_text h3 {
+  color: #222222;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  padding-top: 35px;
+}
+
+#department .dep_main .dep_text p {
+  color: #7A7A7A;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 28px;
+  padding: 15px 45px 0;
+}
+
+#department .dep_main .dep_text a {
+  padding: 12px 39px;
+  background: #fff;
+  border-radius: 10px;
+  color: #0077C0;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  border: 1px solid #0077C0;
+  margin-top: 20px;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+#department .dep_main .dep_text a:hover {
+  background: #0077C0;
+  color: #fff;
+}
+
+.common_head p {
+  color: #7A7A7A;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 28px;
+}
+
+/* =====================================================
+                    Department part end
+===================================================== */
+/* =====================================================
+                    Counter part start
+===================================================== */
+#counter {
+  height: 284px;
+}
+
+#counter .counter_text {
+  padding: 58px 67px;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: -4px -4px 40px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: -4px -4px 40px 0 rgba(0, 0, 0, 0.06);
+  position: relative;
+  top: -130px;
+}
+
+#counter .counter_text h3 {
+  color: #222222;
+  font-size: 55px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  padding-top: 30px;
+}
+
+#counter .counter_text p {
+  color: #3C5DAA;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  padding-top: 10px;
+}
+
+/* =====================================================
+                    Counter part end
+===================================================== */
+/* =====================================================
+                    About part start
+===================================================== */
+#about {
+  padding: 130px 0 215px;
+}
+
+#about .about_img {
+  position: relative;
+}
+
+#about .about_img .about_shape {
+  position: absolute;
+  left: -50px;
+  top: -55px;
+  z-index: -1;
+}
+
+#about .about_img .overly {
+  position: absolute;
+  right: -31.88px;
+  bottom: -225px;
+  width: auto;
+  height: auto;
+  background: #fff;
+  max-width: 492px;
+  padding: 32px 35px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 7.44px 53.14px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 7.44px 53.14px 0 rgba(0, 0, 0, 0.05);
+}
+
+#about .about_img .overly p {
+  color: #7A7A7A;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 29.8px;
+  padding-top: 10px;
+  padding-bottom: 21px;
+}
+
+#about .about_text {
+  padding-top: 142px;
+}
+
+#about .about_text h5 {
+  color: #7A7A7A;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 10px;
+}
+
+#about .about_text h2 {
+  color: #222222;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 30px;
+}
+
+#about .about_text p {
+  color: #7A7A7A;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+
+#about .about_text p span {
+  display: block;
+  padding-top: 20px;
+}
+
+#about .about_text .about_sub {
+  padding-top: 20px;
+  padding-left: 74px;
+  position: relative;
+}
+
+#about .about_text .about_sub img {
+  position: absolute;
+  left: 0;
+}
+
+#about .about_text .about_sub h3 {
+  color: #222222;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 15px;
+}
+
+#about .about_text .about_sub p {
+  padding-bottom: 0;
+}
+
+/* =====================================================
+                    About part end
+===================================================== */
+/* =====================================================
+                    Histroy part start
+===================================================== */
+#histroy {
+  background: #0078c20d;
+  padding: 130px 0;
+}
+
+#histroy .image {
+  position: relative;
+}
+
+#histroy .image .img img {
+  width: 100%;
+}
+
+#histroy .image .expert {
+  display: inline-block;
+  background: #0077C0;
+  padding: 72px 28px;
+  border: 10px solid #fff;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -85px;
+  left: -175px;
+}
+
+#histroy .image .expert h2 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 700;
+  width: 243px;
+  text-align: center;
+}
+
+#histroy .detail h6 {
+  font-size: 20px;
+  color: #0077C0;
+  font-weight: 600;
+}
+
+#histroy .detail h3 {
+  font-size: 40px;
+  color: #222;
+  font-weight: 700;
+  width: 584px;
+  line-height: 48px;
+  margin-top: 15px;
+}
+
+#histroy .detail p {
+  font-size: 16px;
+  color: #7a7a7a;
+  font-weight: 400;
+  line-height: 28px;
+  width: 505px;
+  margin-top: 30px;
+}
+
+#histroy .detail .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+#histroy .detail .list .his-text {
+  margin-left: 20px;
+}
+
+#histroy .detail .list .his-text h4 {
+  font-size: 25px;
+  color: #222;
+  font-weight: 700;
+}
+
+#histroy .detail .list .his-text p {
+  margin-top: 15px;
+  width: 436px;
+}
+
+#histroy .mar-top {
+  margin-top: 100px;
+}
+
+/* =====================================================
+                    Histroy part end
+===================================================== */
+/* =====================================================
+                Latest News part start
+===================================================== */
+#latest_new {
+  padding: 130px 0;
+}
+
+#latest_new .common_head p {
+  padding-top: 15px;
+}
+
+#latest_new .news_inner {
+  padding: 17px 17px 36px;
+  border: 1px solid #E9E9E9;
+  border-radius: 10px;
+  -webkit-transform: all linear 0.3s;
+          transform: all linear 0.3s;
+  margin-top: 44px;
+}
+
+#latest_new .news_inner .news_text {
+  padding-right: 104px;
+}
+
+#latest_new .news_inner .news_text .new_design_data p {
+  color: #7A7A7A;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 28px;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+#latest_new .news_inner .news_text .new_design_data p i {
+  color: #3C5DAA;
+}
+
+#latest_new .news_inner .news_text h3 {
+  color: #222222;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+#latest_new .news_inner .news_text p {
+  color: #7A7A7A;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding: 15px 0;
+}
+
+#latest_new .news_inner .news_text a {
+  color: #3C5DAA;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  line-height: 28px;
+}
+
+/* =====================================================
+                Latest News part end
+===================================================== */
+/* =====================================================
+                    Support part start
+===================================================== */
+#support {
+  padding: 0 0 23px;
+}
+
+#support .common_head p {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#support .common_head a {
+  padding: 16px 36px;
+  border-radius: 10px;
+  background: #0077C0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+#support .accordion-item {
+  margin-bottom: 30px;
+  background: #fff;
+  border: 1px solid #E9E9E9;
+  border-radius: 10px;
+  padding: 0 40px;
+}
+
+#support .accordion-item.border {
+  border-color: transparent !important;
+  -webkit-box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.05);
+}
+
+#support .accordion-item button {
+  border: 0;
+  background: transparent;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+  padding: 30px 0 20px;
+  color: #0077C0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+#support .accordion-item button:after {
+  color: #0077C0;
+  font-size: 24px;
+}
+
+#support .accordion-item button[aria-expanded="true"]:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #E9E9E9;
+}
+
+#support .accordion-item button.collapsed {
+  color: #222222;
+}
+
+#support .accordion-item .accordion-button:focus {
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+}
+
+#support .accordion-item .accordion-body {
+  padding: 20px 0 26px;
+}
+
+#support .accordion-item .accordion-body p {
+  color: #7A7A7A;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 28px;
+}
+
+/* =====================================================
+                    Support part end
+===================================================== */
+/* =====================================================
+                    Subscrib part start
+===================================================== */
+#subscrib .sub_inner {
+  background: #fff;
+  padding: 78px 248px;
+  -webkit-box-shadow: -5px -5px 50px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: -5px -5px 50px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  position: relative;
+  bottom: -77px;
+}
+
+#subscrib .sub_inner .sub_shape {
+  position: absolute;
+  right: -24px;
+  top: -45px;
+  z-index: -1;
+}
+
+#subscrib .sub_inner h2 {
+  color: #222222;
+  font-size: 40px;
+  font-weight: 7700;
+  font-family: "Inter", sans-serif;
+  line-height: 55px;
+  margin-bottom: 30px;
+}
+
+#subscrib .sub_inner .search {
+  position: relative;
+}
+
+#subscrib .sub_inner .search input {
+  width: 100%;
+  height: 56px;
+  border: 1px solid #E9E9E9;
+  border-radius: 10px;
+  padding-right: 170px;
+  padding-left: 24px;
+}
+
+#subscrib .sub_inner .search button {
+  padding: 18px 33px;
+  background: #0077C0;
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 1;
+}
+
+/* =====================================================
+                    Subscrib part end
+===================================================== */
+/* =====================================================
+                    Footer part start
+===================================================== */
+#footer {
+  padding: 207px 0 130px;
+}
+
+#footer .footer_left h4 {
+  padding-bottom: 33px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+#footer .footer_left .add_text {
+  position: relative;
+  padding-left: 51px;
+}
+
+#footer .footer_left .add_text i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 31px;
+  height: 31px;
+  background: #fff;
+  text-align: center;
+  line-height: 31px;
+  border-radius: 50px;
+  color: #0077C0;
+  font-size: 16px;
+}
+
+#footer .footer_left .add_text p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 28px;
+  padding-bottom: 15px;
+}
+
+#footer .footer_left .add_text p span {
+  font-weight: 700;
+  display: block;
+}
+
+#footer .footer_left .add_text p:last-child {
+  padding-bottom: 0;
+}
+
+#footer .footer h4 {
+  padding-bottom: 33px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+#footer .footer ul li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 35px;
+}
+
+/* =====================================================
+                    Footer part end
+===================================================== */
+/*# sourceMappingURL=style.css.map */

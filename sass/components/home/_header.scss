@@ -1,0 +1,47 @@
+@import '../../variables/variables';
+@import '../../mixins/mixins';
+
+/* =====================================================
+                    Header part start
+===================================================== */
+
+.main_menu {
+    max-width: 1702px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 38px 77px 40px 65px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    z-index: 999;
+    width: 100%;
+    transform: translateX(-50%);
+
+    ul {
+        li {
+            a {
+                @include fs($pera, 18px, 500, $intr);
+                padding: 0 29px !important;
+                transition: $trns;
+
+                &:hover {
+                    color: $main;
+                }
+            }
+        }
+    }
+
+    #navbarSupportedContent {
+        >a {
+            padding: 16px 36px;
+            @include fs(#fff, 20px, 500, $intr);
+            background: $main;
+            border-radius: 10px;
+        }
+    }
+}
+
+/* =====================================================
+                    Header part end
+===================================================== */

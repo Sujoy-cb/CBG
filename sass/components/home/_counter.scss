@@ -1,0 +1,30 @@
+@import '../../variables/variables';
+@import '../../mixins/mixins';
+
+/* =====================================================
+                    Counter part start
+===================================================== */
+
+#counter{
+    height: 284px;
+    .counter_text{
+        padding: 58px 67px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: -4px -4px 40px 0 rgba(0, 0, 0, 0.06);
+        position: relative;
+        top: -130px;
+        h3{
+            @include fs($head, 55px, 700, $intr);
+            padding-top: 30px;
+        }
+        p{
+            @include fs(#3C5DAA, 20px, 600, $intr);
+            padding-top: 10px;
+        }
+    }
+}
+
+/* =====================================================
+                    Counter part end
+===================================================== */

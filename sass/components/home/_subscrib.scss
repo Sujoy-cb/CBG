@@ -1,0 +1,55 @@
+@import '../../variables/variables';
+@import '../../mixins/mixins';
+
+/* =====================================================
+                    Subscrib part start
+===================================================== */
+#subscrib {
+    .sub_inner {
+        background: #fff;
+        padding: 78px 248px;
+        box-shadow: -5px -5px 50px 0 rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        position: relative;
+        bottom: -77px;
+        .sub_shape{
+            position: absolute;
+            right: -24px;
+            top: -45px;
+            z-index: -1;
+        }
+        h2 {
+            @include fs($head, 40px, 7700, $intr);
+            line-height: 55px;
+            margin-bottom: 30px;
+        }
+
+        .search {
+            position: relative;
+            input {
+                width: 100%;
+                height: 56px;
+                border: 1px solid #E9E9E9;
+                border-radius: 10px;
+                padding-right: 170px;
+                padding-left: 24px;
+            }
+
+            button {
+                padding: 18px 33px;
+                background: $main;
+                border-radius: 10px;
+                border: 0;
+                @include fs(#fff, 20px, 500, $intr);
+                position: absolute;
+                right: 0;
+                top: 0;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+/* =====================================================
+                    Subscrib part end
+===================================================== */
